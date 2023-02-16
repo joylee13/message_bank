@@ -1,0 +1,11 @@
+{% extends Documents/GitHub/message_bank/templates/'base.html' %}
+
+{% block content %}
+  <form method="post">
+      <label for="message">What would you like to share?</label><br>
+      <input message="message" id="message""><br>
+      <label for="name">What would you like to be called?</label><br>
+      <input name="name" id="name"><br>
+      <input type="submit" value="Submit!">
+  </form>
+{% endblock %}
