@@ -1,0 +1,69 @@
+html {
+    font-family: copperplate;
+    background: #fa7c33;
+    opacity: 0.8;
+    padding: 1rem;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Style the title */
+h1 {
+    color: #261124;
+    font-family: copperplate;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: #c9e7e6;
+    opacity: 0.6;
+    overflow-x: hidden;
+    border-style: inset;
+  }
+
+/* Side navigation links */
+.sidenav a {
+    color: #3548b4;
+    padding: 16px;
+    text-decoration: none;
+}
+nav ul li a {
+    display: block;
+    padding: 0.5rem;
+}
+
+.content {
+    padding: 0 1rem 1rem;
+    border-style: inset;
+    background: #c9e7e6;
+    border-radius: 25px;
+}
+
+.flash {
+    text-align: center;
+    margin: 1em 0;
+    padding: 1em;
+    background: #c9e7e6;
+    border: 1px solid #377ba8;
+    border-style: inset;
+}
+/* customize submit button */
+.submit-button {
+	background: #377ba8;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+}
