@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Thoughts Others Have Submitted{% endblock %}</h1>
+{% endblock %}
+
+<h1>Submissions</h1>
+<ul>
+{% for e in entries %}
+  <li>{{ e[0]}}</li>
+  <li>{{ e[1]}}</li>
+{% endfor %}
+</ul>
