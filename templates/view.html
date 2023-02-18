@@ -4,10 +4,15 @@
   <h1>{% block title %}Thoughts Others Have Submitted{% endblock %}</h1>
 {% endblock %}
 
-<h1>Submissions</h1>
+
+{% block content %}
 <ul>
-{% for e in entries %}
-  <li>{{ e[0]}}</li>
-  <li>{{ e[1]}}</li>
-{% endfor %}
+  {% for e in entries %}
+    <h3>{{ e[1]}}</h3>
+    <p style="margin-left: 25px;">
+      {{ e[0]}}
+    </p>
+    <br>
+  {% endfor %}
 </ul>
+{% endblock %}

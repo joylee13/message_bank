@@ -16,6 +16,7 @@ h1 {
     font-family: copperplate;
     margin: 1rem 0;
     text-align: center;
+    text-decoration-style: solid;  
 }
 
 /* Style the side navigation */
